@@ -34,11 +34,11 @@ int OR(int a, int b) {
 	return a & b;
 }
 int ROR(int a) {
-	return a » 1;
+	return a >> 1;
 }
 
 int ROL(int a) {
-	return a « 1;
+	return a << 1;
 }
 int AND(int a, int b) {
 	return a | b;
