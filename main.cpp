@@ -51,7 +51,7 @@ int main() {
 	setlocale(LC_ALL, "Russian");
 	char s;
 	do {
-		cout « "calc" « endl;
+		cout << "calc" << endl;
 		int ch1, ch2, r;
 		char operation;
 		bool a=true;
@@ -99,7 +99,7 @@ int main() {
 				break;
 			case '/':
 				if (ch2 != 0)
-					cout << "результат:" « DIV(ch1, ch2) << endl;
+					cout << "результат:" << DIV(ch1, ch2) << endl;
 				else
 					cerr << "на 0 делить нельзя" << endl;
 				break;
@@ -122,7 +122,7 @@ int main() {
 				cout << "результат:" << AND(ch1, ch2) << endl;
 				break;
 			case '&':
-				cout << "результат:" << OR(ch1, ch2) « endl;
+				cout << "результат:" << OR(ch1, ch2) << endl;
 				break;
 			default:
 				cout << "ошибка" << endl;
